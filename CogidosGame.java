@@ -1,8 +1,11 @@
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Random;
 
 public class CogidosGame extends JPanel {
@@ -119,9 +122,8 @@ public class CogidosGame extends JPanel {
             int currentX = current.x;
             int currentY = current.y;
 
-            int[] dx = {0, 0,A continuación, se muestra la segunda parte del código optimizado:
+            int[] dx = {0, 0, -1, 1};
 
-```java
             int[] dy = {-1, 1, 0, 0};
 
             for (int i = 0; i < 4; i++) {
